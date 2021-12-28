@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+canvas{
+      position:absolute;
+      left:0;
+      top:0;
+      z-index:-1;
+    }
+* {
+  box-sizing: border-box;
+}
+h2 {text-align: center;}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Education</h2>
+B.A. Physics, Lawrence University <br>
+B.A. Philosophy, Lawrence University <br>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Software Designer</h2>
+    <p>I did tons of awesome stuff</p>
+    <p>Videogames: 
+        https://kanethemediocre.github.io/</p>
+    <p>3d printing software
+        Bushing Tool:
+        Manual Path Tool
+    </p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Mechanical Designer</h2>
+    <p>Automation design</p>
+  </div>
+</div>
+
+</body>
+</html>
